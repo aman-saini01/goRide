@@ -6,7 +6,7 @@ module.exports = {
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
         'poppins': ['Poppins', 'sans-serif'],
-        'lora': ['Lora', 'serif'],
+        'lora': ['Lora', 'sans-serif'],
         'montserrat': ['Montserrat', 'sans-serif'],
         'opensans': ['Open Sans', 'sans-serif'],
         'worksans': ['Work Sans', 'sans-serif'],
