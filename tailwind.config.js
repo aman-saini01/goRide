@@ -14,6 +14,9 @@ module.exports = {
         'sourcesans': ['Source Sans Pro', 'sans-serif'],
         'lilita': ['Lilita One', 'sans-serif'],
       },
+      backgroundImage:{
+        'roadBg':"url('/src/assets/roadBg.png')"
+      },
     },
   },
   plugins: [],

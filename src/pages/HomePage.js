@@ -11,37 +11,46 @@ const HomePage = () => {
 
   return (
     <>
-    <header className="relative bg-blue-400 text-gray-50 p-[3.5rem] text-center">
-      <h1 className="  text-4xl font-bold mb-6">Find Your Ride</h1>
-      <div className="  bg-gray-100 p-8 rounded-[1.6rem] shadow-md text-gray-800 max-w-[20rem] max-h-[22rem] mx-auto">
+    <header className="relative  text-gray-50 p-[5rem] text-center bg-white">
+   
+      <h1 className="  text-4xl font-bold text-black  mb-6 ">Find Your Ride!!</h1>
+      <div className=" flex flex-col overflow-hidden bg-gray-50 w-[25rem] h-[22rem]  rounded-[1.1rem] shadow-gray-400 shadow-xl text-gray-800  mx-auto w-max-[30rem]">
+        <div className=" border-b-gray-300 p-2 border-b-[0.5px] ">
         <input 
           type="text" 
           placeholder="From City" 
-          className="w-full p-2 mb-4 border rounded-[1.6rem]"
+          className="w-full  bg-gray-50 focus:outline-none p-4 "
           value={fromCity}
           onChange={(e) => setFromCity(e.target.value)}
         />
+        </div>
+        <div className="border-b-gray-300 p-2 border-b-[0.5px]"> 
         <input 
           type="text" 
           placeholder="To City" 
-          className="w-full p-2 mb-4 border rounded-[1.6rem]"
+          className="w-full  bg-gray-50 focus:outline-none p-4"
           value={toCity}
           onChange={(e) => setToCity(e.target.value)}
         />
-        <input 
+        </div>
+       <div className="border-b-gray-300 p-2 border-b-[0.5px]">
+       <input 
           type="number" 
           placeholder="Number of Seats" 
-          className="w-full p-2 mb-4 border rounded-[1.6rem]"
+          className="w-full bg-gray-50 focus:outline-none p-4"
           value={seats}
           onChange={(e) => setSeats(e.target.value)}
         />
-        <input 
+       </div>
+       <div className="border-b-gray-300 p-2 border-b-[0.5px]">
+       <input 
           type="date" 
-          className="w-full p-2 mb-4 border rounded-[1.6rem]"
+          className="w-full border-b-gray-50 bg-gray-50 focus:outline-none p-4"
           value={date}
           onChange={(e) => setDate(e.target.value)}
         />
-        <button className="w-full bg-blue-600 text-white p-2 rounded-[1.6rem] hover:bg-blue-700 transition">Search Ride</button>
+       </div>
+        <button className="w-full bg-blue-600 mt-0  text-white p-5 hover:bg-blue-700  transition">Search Ride</button>
       </div>
       <button className="mt-4 text-lg font-semibold bg-yellow-500 px-4 py-2 rounded-[1.6rem] hover:bg-yellow-600 transition">Become a Driver</button>
     </header>

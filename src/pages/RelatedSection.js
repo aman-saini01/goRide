@@ -2,7 +2,7 @@ import React from 'react';
 
 const RelatedSection = () => {
   return (
-    <section className="p-10 max-w-[30 rem] h-[30rem] bg-gray-100">
+    <section className="p-10 max-w-[30 rem] h-[30rem] bg-blue-400">
       <h2 className="text-3xl font-bold text-center mb-8">Why Choose Us?</h2>
       <div className="flex flex-col md:flex-row justify-around items-center">
         <div className="p-4 max-w-[30rem]">

@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <div className="font-sans">
+      <div className="font-montserrat bg-blue-400">
         <Routes>
           <Route path="/" element={<HomePage />} />
         </Routes>
